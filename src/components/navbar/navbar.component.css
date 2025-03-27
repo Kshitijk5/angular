@@ -1,0 +1,45 @@
+nav {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 30px 0px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links > li {
+  list-style-type: none;
+}
+
+#login-button {
+  border: 1px solid grey;
+  border-radius: 5px;
+  display: flex;
+  gap: 4px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 4px;
+  background-color: #ffff;
+  color: black;
+  transition: all ease-in-out 500ms;
+}
+
+#login-button:hover {
+  background-color: #362cf5;
+  color: white;
+}
+#login-button > img {
+  border-radius: 100%;
+}
+
+.nav-links > li > a {
+  text-decoration: none;
+  color: black;
+}
