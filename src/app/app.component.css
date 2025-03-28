@@ -1,0 +1,12 @@
+main {
+  margin: 0 50px;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh-80px);
+  padding: 0 150px;
+}
