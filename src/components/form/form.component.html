@@ -1,0 +1,67 @@
+<div class="form-container">
+  <form (submit)="onSubmit($event)">
+    <div class="input-container">
+      <label for="name">Name :</label> &nbsp;
+      <input name="name" id="name" type="text" [(ngModel)]="name" />
+    </div>
+
+    <div class="input-container">
+      <label for="email">Email :</label> &nbsp;
+      <input name="email" id="email" type="email" [(ngModel)]="email" />
+    </div>
+
+    <div class="input-container">
+      <label for="phone">Phone :</label> &nbsp;
+      <input name="phone" id="phone" type="tel" [(ngModel)]="phone" />
+    </div>
+
+    <div class="input-container">
+      <label for="message">Message :</label> &nbsp;
+      <textarea
+        name="message"
+        id="message"
+        rows="4"
+        cols="20"
+        [(ngModel)]="message"
+      ></textarea>
+    </div>
+
+    <div class="input-container"><label>Gender :</label> &nbsp;</div>
+    <div class="input-container">
+      <input
+        type="radio"
+        id="male"
+        name="gender"
+        value="Male"
+        [(ngModel)]="gender"
+      />
+      <label for="male">Male</label> &nbsp;
+    </div>
+
+    <div class="input-container">
+      <input
+        type="radio"
+        id="female"
+        name="gender"
+        value="Female"
+        [(ngModel)]="gender"
+      />
+      <label for="female">Female</label> &nbsp;
+    </div>
+
+    <div class="input-container">
+      <label for="subscribe">Subscribe to Newsletter :</label> &nbsp;
+      <input
+        type="checkbox"
+        id="subscribe"
+        name="subscribe"
+        value="yes"
+        [(ngModel)]="checkbox"
+      />
+    </div>
+
+    <div class="input-container">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</div>

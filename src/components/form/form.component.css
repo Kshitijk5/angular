@@ -1,0 +1,31 @@
+form {
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 200px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  -webkit-box-shadow: 18px 18px 2px -6px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 18px 18px 2px -6px rgba(0, 0, 0, 1);
+  box-shadow: 18px 18px 2px -6px rgba(0, 0, 0, 1);
+}
+
+button {
+  background-color: #4d55cc;
+  color: white;
+}
+
+.form-container {
+  width: 100%;
+}
+
+.input-container > button {
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
